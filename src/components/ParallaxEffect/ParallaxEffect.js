@@ -1,5 +1,5 @@
 import React from "react";
-import { Parallax, Background } from "react-parallax";
+import { Parallax } from "react-parallax";
 
 import image2 from "../../assets/images/img-2.jpg";
 
