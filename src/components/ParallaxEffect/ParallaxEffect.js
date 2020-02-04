@@ -1,5 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
+import ContactButton from "./ContactButton";
 
 import image2 from "../../assets/images/img-2.jpg";
 
@@ -15,6 +16,13 @@ const insideStyles = {
   left: "50%",
   transform: "translate(-50%,-50%)"
 };
+const buttonStyles = {
+  display: "inline-block"
+};
+
+const nameStyles = {
+  fontFamily: "'Molle', cursive"
+};
 
 const ParallaxEffect = () => {
   return (
@@ -22,7 +30,11 @@ const ParallaxEffect = () => {
       <Parallax bgImage={image2} strength={500}>
         <div style={{ height: 600 }}>
           <div style={insideStyles}>
-            <h1>Intuitive Wellness △ Mindful Mama</h1>
+            <h1 style={nameStyles}>Madeleine Amelia</h1>
+            <h2>Intuitive Wellness △ Mindful Mama</h2>
+            <div style={buttonStyles}>
+              <ContactButton />
+            </div>
           </div>
         </div>
       </Parallax>
