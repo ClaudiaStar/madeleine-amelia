@@ -1,0 +1,28 @@
+.Programs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 150px 100px;
+}
+
+.Programs p {
+  width: 30vw;
+  padding: 10px;
+  color: #000000;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  line-height: 25px;
+  font-weight: 600;
+  border-radius: 0.5em;
+  box-shadow: -10px -10px 10px 0 rgba(255, 255, 255, 1),
+    10px 10px 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: #3a473d1c;
+}
+
+@media screen and (max-device-width: 725px) {
+  .Programs {
+    padding: 100px 0;
+  }
+  .Programs p {
+    width: 80vw;
+  }
+}

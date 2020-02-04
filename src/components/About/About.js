@@ -8,13 +8,14 @@ const About = () => {
     <div className={classes.About}>
       <img src={face} alt="self"></img>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in iaculis
-        diam. Aenean non fringilla orci. Fusce eget felis urna. Vivamus
-        tincidunt dictum felis eget facilisis. Etiam sollicitudin, arcu vel
-        ultricies laoreet, risus odio fermentum mi, volutpat feugiat elit risus
-        faucibus ante. Donec tincidunt dignissim ipsum, sit amet faucibus lorem
-        dignissim at. Proin interdum non dolor quis rutrum. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
+        I’m a green juice chugging internationally certified holistic
+        nutritionist, an athlete, yogi, and mama to Riley. I’m a recovered
+        binge-restrict cycle, over-exercising, not self-loving and lost human. I
+        believe change is happening in the shift from short term fixes to long
+        term HAPPINESS. In fact, I am here to teach women how to take their
+        bodies BACK from the diet industry, to give you the tools you need to
+        create intuitive capabilities that will lead you to optimal health, and
+        the body of your dreams.
       </p>
     </div>
   );
