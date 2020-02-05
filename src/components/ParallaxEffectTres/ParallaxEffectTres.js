@@ -17,9 +17,10 @@ const insideStyles = {
 };
 
 const ParallaxEffect = () => {
+  const myRef = React.createRef();
   return (
     <div style={styles}>
-      <Parallax bgImage={image4} strength={500}>
+      <Parallax bgImage={image4} strength={500} ref={myRef}>
         <div style={{ height: 300 }}>
           <div style={insideStyles}>
             <h1>
