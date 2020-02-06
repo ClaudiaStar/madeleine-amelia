@@ -1,0 +1,8 @@
+.HomeBackground {
+  background-image: url("../../assets/images/img-2.jpg");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

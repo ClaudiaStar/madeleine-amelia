@@ -27,14 +27,14 @@ const ParallaxEffectDos = () => {
                 top: "50%",
                 borderRadius: "50%",
                 transform: "translate(-50%,-50%)",
-                width: percentage * 500,
-                height: percentage * 500
+                width: percentage * 800,
+                height: percentage * 800
               }}
             />
           </div>
         )}
       >
-        <div style={{ height: 300 }}>
+        <div style={{ height: "90vh" }}>
           <h2 style={insideStyles}>Create healthy habits, not restrictions.</h2>
         </div>
       </Parallax>

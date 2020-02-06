@@ -21,7 +21,7 @@ const ParallaxEffect = () => {
   return (
     <div style={styles}>
       <Parallax bgImage={image4} strength={500} ref={myRef}>
-        <div style={{ height: 300 }}>
+        <div style={{ height: "90vh" }}>
           <div style={insideStyles}>
             <h1>
               I can’t wait for the world to see just how beautiful you are.
