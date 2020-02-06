@@ -7,6 +7,14 @@ const Programs = () => {
   return (
     <React.Fragment>
       <ParallaxEffectDos />
+      <div className={classes.ProgramsHeadText}>
+        <h2>
+          My intention is to be a compass to those that are lost in their
+          ambitions and to bring a light to this world.{" "}
+        </h2>
+        <h3>With my coaching I focus on:</h3>
+      </div>
+
       <div className={classes.Programs}>
         <p>Step by step guides and coaching on intuitive eating</p>
         <p>

@@ -1,0 +1,41 @@
+.Footer {
+  border-top: 1px solid #000000;
+  bottom: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: small;
+  padding-bottom: 15px;
+}
+
+.SocialIcons {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 3fr 1fr 1fr 1fr 3fr;
+  grid-template-areas: ". instagram facebook twitter .";
+}
+
+.Instagram {
+  grid-area: instagram;
+}
+
+.Facebook {
+  grid-area: facebook;
+}
+
+.Twitter {
+  grid-area: twitter;
+}
+
+.SocialIcons > img {
+  width: 20px;
+  height: auto;
+}
+
+@media /* desktop */ (min-width: 769px) {
+  .SocialIcons {
+    grid-template-columns: 10fr 1fr 1fr 1fr 10fr;
+  }
+}
