@@ -17,3 +17,9 @@
   animation: transitionIn 0.75s;
   background-color: #000000;
 }
+
+@media screen and (max-device-width: 725px) {
+  .contactBackground {
+    background-image: url("../../assets/images/happy-mobile.jpg");
+  }
+}

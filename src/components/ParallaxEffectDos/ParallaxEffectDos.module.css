@@ -17,11 +17,10 @@
   position: relative;
   animation: transitionIn 0.75s;
   background-color: #000000;
-  filter: blur(0px);
 }
 
 @media screen and (max-device-width: 725px) {
   .programsBackground {
-    filter: blur();
+    background-image: url("../../assets/images/fruit-mobile.jpg");
   }
 }
