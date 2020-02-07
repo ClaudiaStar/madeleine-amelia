@@ -25,9 +25,15 @@
 
 @media screen and (max-device-width: 725px) {
   .Programs {
-    padding: 100px 0;
+    padding: 50px 0 150px 0;
   }
   .Programs p {
     width: 80vw;
+  }
+  .ProgramsHeadText {
+    margin: 50px auto 0 auto;
+  }
+  .ProgramsHeadText h3 {
+    margin-top: 50px;
   }
 }

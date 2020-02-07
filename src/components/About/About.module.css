@@ -1,6 +1,6 @@
 .About {
   display: flex;
-  padding: 100px 0;
+  padding: 100px 0 150px 0;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -19,6 +19,9 @@
 }
 
 @media screen and (max-device-width: 845px) {
+  .About {
+    padding: 50px 0 150px 0;
+  }
   .About p {
     width: 90vw;
     margin-left: 0;

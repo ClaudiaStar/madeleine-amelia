@@ -40,7 +40,7 @@ h2 {
     ". submit . .";
   grid-column-gap: 15px;
   grid-row-gap: 15px;
-  padding: 100px 0;
+  padding: 100px 0 150px 0;
 }
 
 .ContactForm > div {
@@ -109,5 +109,6 @@ button:hover::before {
       ". telephone telephone ."
       ". message message ."
       ". submit . .";
+    padding: 50px 0 150px 0;
   }
 }
