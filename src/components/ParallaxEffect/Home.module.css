@@ -1,3 +1,14 @@
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
 .HomeBackground {
   background-image: url("../../assets/images/img-2.jpg");
   height: 90vh;
@@ -5,4 +16,5 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  animation: transitionIn 0.75s;
 }

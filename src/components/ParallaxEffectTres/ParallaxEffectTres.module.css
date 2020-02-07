@@ -1,0 +1,16 @@
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ParallaxEffectTres {
+  animation: transitionIn 0.75s;
+}
+
+.ParallaxContentTres {
+  animation: transitionIn 1.5s;
+}

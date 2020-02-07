@@ -1,6 +1,8 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 
+import classes from "./ParallaxEffectTres.module.css";
+
 import image4 from "../../assets/images/img4.jpg";
 
 const styles = {
@@ -20,8 +22,13 @@ const ParallaxEffect = () => {
   const myRef = React.createRef();
   return (
     <div style={styles}>
-      <Parallax bgImage={image4} strength={500} ref={myRef}>
-        <div style={{ height: "90vh" }}>
+      <Parallax
+        bgImage={image4}
+        strength={500}
+        ref={myRef}
+        bgClassName={classes.ParallaxEffectTres}
+      >
+        <div style={{ height: "90vh" }} className={classes.ParallaxContentTres}>
           <div style={insideStyles}>
             <h1>
               I can’t wait for the world to see just how beautiful you are.

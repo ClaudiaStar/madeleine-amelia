@@ -1,0 +1,16 @@
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ParallaxEffectDos {
+  animation: transitionIn 0.75s;
+}
+
+.ParallaxContentDos {
+  animation: transitionIn 2s;
+}
