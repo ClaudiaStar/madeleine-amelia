@@ -21,6 +21,8 @@ const toggleMenuClasses = () => {
 };
 
 const handleMenuClicked = () => {
+  let burgerIcon = document.getElementById("burger");
+  burgerIcon.classList.toggle(classes.isActive);
   let mobileMenu = document.getElementById("menu-container");
   mobileMenu.classList.toggle(classes.Opened);
 };
