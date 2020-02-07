@@ -1,14 +1,6 @@
 import React from "react";
-import { Parallax } from "react-parallax";
-
 import classes from "./ParallaxEffectTres.module.css";
 
-import image4 from "../../assets/images/img4.jpg";
-
-const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center"
-};
 const insideStyles = {
   backgroundColor: "#E9EBEAA1",
   padding: 20,
@@ -19,24 +11,18 @@ const insideStyles = {
 };
 
 const ParallaxEffect = () => {
-  const myRef = React.createRef();
   return (
-    <div style={styles}>
-      <Parallax
-        bgImage={image4}
-        strength={500}
-        ref={myRef}
-        bgClassName={classes.ParallaxEffectTres}
-      >
-        <div style={{ height: "90vh" }} className={classes.ParallaxContentTres}>
+    <React.Fragment>
+      <div className={classes.contactBackgroundContainer}>
+        <div className={classes.contactBackground}>
           <div style={insideStyles}>
-            <h1>
+            <h2>
               I can’t wait for the world to see just how beautiful you are.
-            </h1>
+            </h2>
           </div>
         </div>
-      </Parallax>
-    </div>
+      </div>
+    </React.Fragment>
   );
 };
 

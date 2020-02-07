@@ -11,7 +11,8 @@ const insideStyles = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%,-50%)",
-  width: "fit-content"
+  width: "fit-content",
+  color: "#ffffff"
 };
 const buttonStyles = {
   display: "inline-block"
